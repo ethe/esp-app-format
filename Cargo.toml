@@ -1,0 +1,11 @@
+[package]
+description = "esp-app-format is a Rust binding to esp-idf/bootloader_support, it does not require specific target or RTOS."
+edition = "2021"
+license = "Apache-2.0"
+name = "esp-app-format"
+readme = "README.md"
+repository = "https://github.com/ethe/esp-app-format"
+version = "0.5.3"
+
+[build-dependencies]
+bindgen = "0.71.0"
